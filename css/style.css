@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+body{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.js-todo {
+    width: 600px;
+    margin: auto;
+    min-height: 100%;
+    background-color: rgb(209, 202, 202);
+    padding:30px;
+    padding-top:40px;
+    box-sizing: border-box;
+
+}
+
+.textTodo {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.addTodo{
+    width: 28%;
+}
+
+.text-input{
+    margin-bottom: 20px;
+}
+
+.simple {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.removeTodo, .addTodo{
+    cursor: pointer;
+}
