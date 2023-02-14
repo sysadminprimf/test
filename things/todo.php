@@ -1,3 +1,7 @@
+<?php
+try {
+  if(ACCESS){
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,4 +21,11 @@
     <script src="../js/index.js"></script>
 </body>
 </html>
+<?php
+    }  
+}
 
+catch(error){
+    echo "Незя так!";
+}
+?>
