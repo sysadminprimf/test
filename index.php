@@ -1,4 +1,4 @@
 <?php
 define("ACCESS",TRUE);
 
-require("./things/todo.php");
+echo utf8_decode("ÃÃ³Ã¤Ã¨Ã²");
